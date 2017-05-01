@@ -1,0 +1,7 @@
+ccal (2.5-3) stable; urgency=low
+
+  * Incorporated latest updates in NOVAS-C package.
+  * Replaced size_t with int to avoid problems on some 64-bit platforms.
+  * For console output, highlights today with ANSI reverse video on non-Windows platforms, as recommended by Mr. Daniel Lin.
+
+ -- Meng Zhuo <zxm8@case.edu>  Sun, 4 Mar 2012 15:53:00 +0800

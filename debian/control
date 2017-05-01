@@ -1,0 +1,12 @@
+Source: ccal
+Section: tool
+Priority: optional
+Maintainer: Meng Zhuo <zxm8@case.edu>
+Build-Depends: gcc, dpkg-dev, build-essential, debhelper
+Standards-Version: 3.9.6
+Homepage: http://ccal.chinesebay.com/ccal/ccal.htm
+
+Package: chinese-calendar
+Architecture: any
+Depends: bash
+Description: Display Chinese Calendar in your terminal.
